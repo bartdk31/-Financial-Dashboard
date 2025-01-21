@@ -4,7 +4,7 @@ import { io } from 'socket.io-client';
 
 // Definer server URL baseret på miljø
 const SERVER_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://din-app.railway.app'  // Opdater denne URL med din Railway URL
+  ? 'https://financial-dashboard-production-ac01.up.railway.app'  // Opdater denne URL med din Railway URL
   : 'http://localhost:8080';
 
 interface Transaction {
